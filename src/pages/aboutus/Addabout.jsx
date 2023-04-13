@@ -77,7 +77,7 @@ function Addabout() {
         if(data){
            setSpinner(false);
            setResponse(data);
-           naviage('/get-aboutus');
+           naviage('/demo_react_webapp/get-aboutus');
         }
       } catch (error) {
         setSpinner(false);
