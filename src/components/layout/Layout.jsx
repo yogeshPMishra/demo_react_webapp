@@ -17,9 +17,9 @@ function Layout() {
             <Header/>
             <div className="container-fluid">
               <Routes>
-                  <Route path = "/" element={<Dashboard/>}/>
-                  <Route path = "/add-aboutus" element={<Addabout/>}/>
-                  <Route path = "/get-aboutus" element={<About/>}/>
+                  <Route path = "/demo_react_webapp" element={<Dashboard/>}/>
+                  <Route path = "/demo_react_webapp/add-aboutus" element={<Addabout/>}/>
+                  <Route path = "/demo_react_webapp/get-aboutus" element={<About/>}/>
               </Routes>
             </div>
         </div>
