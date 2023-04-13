@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Niconne&display=swap');
+
+#logowrapper{
+    background: linear-gradient(90deg, rgba(97,91,205,1) 21%, rgba(33,137,162,1) 53%, rgba(30,100,142,1) 86%);
+}
+.logo{
+    font-size: 32px;
+    font-family: 'Niconne';
+    text-decoration: none;
+    padding: 5px 35px;
+    color: white;
+}
+
+.menubtn{
+    padding: 20px 20px;
+}
+
