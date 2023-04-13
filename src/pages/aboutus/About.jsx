@@ -157,7 +157,7 @@ export default function About() {
                   </StyledTableCell>
                   <StyledTableCell align="right">
                       <StyledButton color='success' variant="contained">
-                        <Link to={'/add-aboutus'}><EditIcon /></Link>
+                        <Link to={'/demo_react_webapp/add-aboutus'}><EditIcon /></Link>
                       </StyledButton>
                       <StyledButton color='error' variant="contained">
                         <Link onClick={()=>HandleDelete(elem._id)}><DeleteForeverIcon/></Link>

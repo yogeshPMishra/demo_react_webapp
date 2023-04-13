@@ -115,7 +115,7 @@ function Addabout() {
             <div>
                 <div className="d-sm-flex align-items-center justify-content-between mb-4">
                     <h1 className="h3 mb-0 text-gray-800">Add About</h1>
-                    <NavLink to="/" className="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">
+                    <NavLink to="/demo_react_webapp" className="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">
                         <i className="fas fa-arrow-left fa-sm text-white-50"></i> Go Back</NavLink>
                 </div> 
 

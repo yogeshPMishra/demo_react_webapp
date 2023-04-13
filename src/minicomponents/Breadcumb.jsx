@@ -22,17 +22,17 @@ function Breadcumb() {
   return (
 
       <StyledBreadCrumbs aria-label="breadcrumb">
-        <Link underline="hover" color="inherit" to="/">
+        <Link underline="hover" color="inherit" to="/demo_react_webapp">
             Home
         </Link>
         <Link
             underline="hover"
             color="inherit"
-            to="/get-aboutus"
+            to="/demo_react_webapp/get-aboutus"
         >
             About Us
         </Link>
-        <Typography color="text.primary">Breadcrumbs</Typography>
+        {/* <Typography color="text.primary">Breadcrumbs</Typography> */}
      </StyledBreadCrumbs>
   )
 }
