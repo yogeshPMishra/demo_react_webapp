@@ -24,7 +24,7 @@ function Sidebar() {
   <ul className={`navbar-nav bg-gradient-primary sidebar sidebar-dark accordion ${toggle}`} id="accordionSidebar" >
 
     {/* <!-- Sidebar - Brand --> */}
-    <Link className="sidebar-brand d-flex align-items-center justify-content-center" to="">
+    <Link className="sidebar-brand d-flex align-items-center justify-content-center" to="/demo_react_webapp">
         <div className="sidebar-brand-icon rotate-n-15">
             <i className="fas fa-laugh-wink"></i>
         </div>
@@ -35,7 +35,7 @@ function Sidebar() {
 
     {/* <!-- Nav Item - Dashboard --> */}
     <li className="nav-item active">
-        <Link className="nav-link" to="/">
+        <Link className="nav-link" to="/demo_react_webapp">
             <i className="fas fa-fw fa-tachometer-alt"></i>
             <span>Dashboard</span></Link>
     </li>

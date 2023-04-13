@@ -6,19 +6,19 @@ const SidebarArr = [
         links :[
             { 
                 title: "Add About Us",
-                route : '/add-aboutus'
+                route : '/demo_react_webapp/add-aboutus'
             },
             {
                 title: "View About Us",
-                route : '/get-aboutus'
+                route : '/demo_react_webapp/get-aboutus'
             },
             { 
                 title:"Add Core Values",
-                route :''
+                route :'/demo_react_webapp'
             },
             {
                 title:"view Core Values",
-                route :""
+                route :"/demo_react_webapp"
             }
         ],
         show:{
@@ -33,11 +33,11 @@ const SidebarArr = [
         links :[
             { 
                 title:"Add Blogs",
-                route :""
+                route :"/demo_react_webapp"
             },
             { 
                 title : "View Blogs",
-                route :""
+                route :"/demo_react_webapp"
             }
         ] ,
         show:{
